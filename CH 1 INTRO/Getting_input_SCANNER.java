@@ -1,8 +1,7 @@
 import java.util.*;
 
 public class Getting_input_SCANNER{
-    public static int main(String[] args){
-        
+    public static void main(String[] args){ 
 
         System.out.println("ENTER YOUR NAME:");
         Scanner in = new Scanner(System.in);
