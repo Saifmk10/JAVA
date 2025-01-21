@@ -8,11 +8,13 @@ public class Addition_of_two_numbers {
             int numberOne = input.nextInt(); 
             int numberTwo = input.nextInt();
 
-            addition(numberOne, numberTwo);
+            int total = addition(numberOne, numberTwo);
+
+            System.out.printf("The sum is : %d" , total);
         }
 
-        static void addition(int a , int b){
+        static int addition(int a , int b){
             int sum = a + b;
-            System.out.printf("The sum of %d and %d is %d" , a , b, sum);
+            return (sum);
         }
 }

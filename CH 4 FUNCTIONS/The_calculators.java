@@ -30,8 +30,8 @@ public class The_calculators {
     }
 
 
+    // function to calculate the body mass index
     static void BMI(){
-        // Console input = System.console();
 
         Scanner input = new Scanner(System.in);
 
