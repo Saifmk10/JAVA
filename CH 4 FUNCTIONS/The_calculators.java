@@ -62,5 +62,9 @@ public class The_calculators {
             System.out.printf("\n YOU'VE BEEN LISTED UNDER OBESE");
         }
     }
+
+    static void BodyFat(){
+        
+    }
     
 }
