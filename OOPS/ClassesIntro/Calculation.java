@@ -1,4 +1,3 @@
-package JAVA.OOPS.ClassesIntro;
 import java.util.*;
     
     class CalculationConstructor{
@@ -8,7 +7,7 @@ import java.util.*;
 
             // constructor for the class CalculationConstructor
             CalculationConstructor(){
-                System.out.println("Input accpeted");
+                System.out.println("Input accepted");
             }
 
             public void GetData(int i , int j){
@@ -19,6 +18,10 @@ import java.util.*;
             public void Addition(){
                 int sum = NumberOne + NumberTwo;
                 System.out.printf("The sum of %d & %d is %d" , NumberOne , NumberTwo , sum); 
+            }
+
+            protected void finalize() throws Throwable{
+                super.finalize();
             }
 
     }
