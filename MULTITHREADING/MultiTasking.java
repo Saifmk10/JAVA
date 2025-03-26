@@ -24,7 +24,7 @@ class MyTasks{
 class MyTasksRunning extends Thread{
     private MyTasks myTasks = new MyTasks(); 
     
-    public void run(){
+    public synchronized  void run(){
         
         int total = myTasks.sum();
         System.out.printf("\n%d is the ToTaL" , total);
